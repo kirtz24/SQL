@@ -1,0 +1,8 @@
+In the table “Employee”, choose all the Female employees whose employee ID is more than 10200 – list all columns and get only 50 results
+
+select
+emp_no, gender
+from
+employees
+where gender = 'F' and emp_no > 10200
+limit 50;
